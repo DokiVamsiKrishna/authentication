@@ -88,3 +88,11 @@ if st.session_state["authentication_status"]:
 # Saving config file
 with open('config.yaml', 'w', encoding='utf-8') as file:
     yaml.dump(config, file, default_flow_style=False)
+hide_streamlit_style = """
+            <style>
+            header{visibility: hidden;}
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
