@@ -1,0 +1,27 @@
+cookie:
+  expiry_days: 30
+  key: vamsi
+  name: vamsi
+credentials:
+  usernames:
+    jsmith:
+      email: jsmith@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: John Smith
+      password: $2b$12$RJuKT/GilotqPMTynLyb8.n.KcmY8sKTf39e85XdPALhP6PHTexEa
+    rbriggs:
+      email: rbriggs@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: Rebecca Briggs
+      password: $2b$12$gYqt7NNYQToolazyXbN48.ZHdJLqCywo8MgLk8MvKxt6439p2DFXK
+    vamc:
+      email: dokivamsi@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: Doki Vamsi Krishna
+      password: $2b$12$B4dav7yKvtB/4zJ6A9rmeOjPCJ7yAB3EPWhwdKpm2HOf969A9M36S
+preauthorized:
+  emails:
+  - melsby@gmail.com
